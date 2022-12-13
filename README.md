@@ -10,6 +10,8 @@ The user will have to download inquirer in the terminal in order to install this
 ## Usage
 This auto generated README application is shown on display in the video below.
 
+[Untitled_ Dec 13, 2022 1_25 PM.webm](https://user-images.githubusercontent.com/114364879/207453376-690ebfee-3438-4fe4-910c-4b428aaa9abc.webm)
+
 ## License
 No license was used.
 
