@@ -1,7 +1,7 @@
 
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { table } = require('console');
+
 
 
  const generateReadme = ({title, description, installation, usage, license, contributing, tests, questions, github, email}) =>
