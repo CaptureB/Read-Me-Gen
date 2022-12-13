@@ -9,6 +9,7 @@ The user will have to download inquirer in the terminal in order to install this
 
 ## Usage
 This auto generated README application is shown on display in the video below.
+https://drive.google.com/file/d/1fhzlwLpnHqlh1h6HTHQuT3cV4Dhr85ga/view
 
 ## License
 No license was used.
