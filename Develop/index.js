@@ -1,10 +1,12 @@
-
+// Calls upon the npm inqurier. assigns const
 const inquirer = require('inquirer');
 const fs = require('fs');
 
 
 
  const generateReadme = ({title, description, installation, usage, license, contributing, tests, questions, github, email}) =>
+
+//Display the paramaters that will be called upon
 
 `# ${title}
 
@@ -36,6 +38,7 @@ const fs = require('fs');
 
 ## ${email}`
 
+//Using the inquirer, using the prompts showing the type, name, and the message that the user will see, the user will be allowed the enter to their needs.
 
  inquirer
 .prompt([
@@ -91,9 +94,12 @@ const fs = require('fs');
         },
 ])
 
+//Using the .then function pulling the answers from the prompt
+
 .then((answers) => {
     const readMeContent = generateReadme(answers);
-
+//Using .fs in order to write and generate the readme file in develop
+//If there is an error, will log the error message, if readme was created will display the message.
     fs.writeFile('README.md', readMeContent, (err) =>
     err ? console.log(err) : console.log('Readme was created!')
     )
