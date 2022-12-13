@@ -42,17 +42,17 @@ const fs = require('fs');
     {
         type: 'input',
         name: 'title',
-        message: 'What is the title of this project?',
+        message: 'Enter the name of the project',
         },
         {
         type: 'input',
         name: 'description',
-        message: 'Please enter a brief description of your project.'
+        message: 'Enter descrption.'
         },
         {
         type: 'input',
         name: 'installation',
-        message: 'Please enter how the user installs this application?'
+        message: 'Please enter how the user installs this application'
         },
         {
         type: 'input',
@@ -67,22 +67,22 @@ const fs = require('fs');
         {
         type: 'input',
         name: 'contributing',
-        message: 'How should people contribute to this project?'
+        message: 'Enter Contributions.'
         },
         {
         type: 'input',
         name: 'tests',
-        message: 'How should the user test this application?'    
+        message: 'Enter Tests'    
         },
         {
         type: 'input',
         name: 'questions',
-        message: 'Please enter any questions here.'    
+        message: 'This will be the Questions.'    
         },
         {
         type: 'input',
         name: 'github',
-        message: 'Would you like to enter your Github username?'
+        message: 'Enter Github name if nesscary.'
         },
         {
         type: 'input',
