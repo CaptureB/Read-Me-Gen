@@ -1,9 +1,40 @@
-// TODO: Include packages needed for this application
+
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-// TODO: Create an array of questions for user input
+
  const generateReadme = ({title, description, installation, usage, license, contributing, tests, questions, github, email}) =>
+
+`## ${title}
+
+
+## ${description}
+
+
+## ${installation}
+
+
+## ${usage}
+
+
+## ${license}
+
+
+## ${contributing}
+
+
+## ${tests}
+
+
+## ${questions}
+
+
+
+## ${github}
+
+
+## ${email}`
+
 
  inquirer
 .prompt([
@@ -28,9 +59,9 @@ const fs = require('fs');
         message: 'What is this application used for?'
         },
         {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
-        choices: ['Apache 2.0', 'MIT','Eclipise Public 2.0','Mozilla Public 2.0','None'] 
+        choices: ['Apache 2.0', 'MIT','Eclipise Public 2.0','Mozilla Public 2.0','None'],
         },
         {
         type: 'input',
