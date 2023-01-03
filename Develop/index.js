@@ -8,35 +8,46 @@ const fs = require('fs');
 
 //Display the paramaters that will be called upon
 
-`# ${title}
+`## Table of Contents: 
+    -[Descripition](#Description)
+    -[Instalation](#Instalation)
+    -[Usage](#Usage)
+    -[License](#License)
+    -[Contributions](#Contributions)
+    -[Tests](#Tests)
+    -[Questions](#Questions)
+    -[GitHub](#GitHub)
+    -[Email](#Email)
+    
+#  Title 
+${title}
 
+##  Description
+${description}
 
-## ${description}
+## Instalation
+${installation}
 
+## Usage
+${usage}
 
-## ${installation}
+## License
+${license}
 
+## Contributions
+${contributing}
 
-## ${usage}
+## Tests
+${tests}
 
+## Questions
+${questions}
 
-## ${license}
+## GitHub 
+${github}
 
-
-## ${contributing}
-
-
-## ${tests}
-
-
-## ${questions}
-
-
-
-## ${github}
-
-
-## ${email}`
+## Email
+${email}`
 
 //Using the inquirer, using the prompts showing the type, name, and the message that the user will see, the user will be allowed the enter to their needs.
 

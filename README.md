@@ -1,5 +1,13 @@
 # Auto generated README.md maker
 
+## Table of Contents
+- [About](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Test](#test)
+- [Github](#github-username)
+- [Email](#email)
 
 ## Description 
 This application allows the user to create a template for README.md file automatically, allowing the user to save time, work on other aspects of the project.
