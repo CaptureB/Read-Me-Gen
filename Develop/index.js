@@ -9,7 +9,7 @@ const fs = require('fs');
 //Display the paramaters that will be called upon
 
 `## Table of Contents: 
-    -[Descripition](#Description)
+-[Descripition](#Description)
     -[Instalation](#Instalation)
     -[Usage](#Usage)
     -[License](#License)
